@@ -1,0 +1,51 @@
+.fondo {
+background-color: whitesmoke;
+padding-right: 0px !important;
+padding-left: 0px!important;
+}
+
+.fondo h1 {
+color: black;
+}
+
+.social li{
+font-size: 17px;
+display: inline-block;
+float:right;
+padding-right: 1%;
+}
+
+li a{
+color: black !important;
+}
+
+nav{
+margin-top: 6%;
+border-top: 1px solid black;
+}
+
+a:hover {
+text-decoration: none!important;
+}
+
+.espaciado{
+padding-bottom: 3%;
+}
+
+.espaciado_2{
+padding-top: 2%;
+}
+.card_color{
+background-color: #f3eded;
+}
+
+.ecci_logos{
+width: 300px;
+height: 48px;
+}
+
+footer {
+background-color: #2d2d2d;
+color:white;
+padding: 4%;
+}

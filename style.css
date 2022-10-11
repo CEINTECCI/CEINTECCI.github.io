@@ -1,51 +1,70 @@
 .fondo {
-background-color: whitesmoke;
-padding-right: 0px !important;
-padding-left: 0px!important;
+    background-color: whitesmoke;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
 .fondo h1 {
-color: black;
+    color: black;
 }
 
-.social li{
-font-size: 17px;
-display: inline-block;
-float:right;
-padding-right: 1%;
+.card-body{
+    height: 27vh;
 }
 
-li a{
-color: black !important;
+.social li {
+    font-size: 17px;
+    float: right;
+    padding-right: 1%;
 }
 
-nav{
-margin-top: 6%;
-border-top: 1px solid black;
+ul{
+    list-style: none;
+}
+
+li a {
+    color: black !important;
+    list-style: none;
+}
+
+nav {
+    margin-top: 6%;
+    border-top: 1px solid black;
 }
 
 a:hover {
-text-decoration: none!important;
+    text-decoration: none !important;
 }
 
-.espaciado{
-padding-bottom: 3%;
+.espaciado {
+    padding-bottom: 3%;
 }
 
-.espaciado_2{
-padding-top: 2%;
-}
-.card_color{
-background-color: #f3eded;
+.espaciado_2 {
+    padding-top: 2%;
 }
 
-.ecci_logos{
-width: 300px;
-height: 48px;
+.card_color {
+    background-color: #f3eded;
+}
+
+.ecci_logos {
+    width: 300px;
+    height: 48px;
+}
+
+.button-style{
+    height: 5vh;
+}
+
+.text{
+    height: 90px;
+    overflow: auto;
+    margin-bottom: 8px;
 }
 
 footer {
-background-color: #2d2d2d;
-color:white;
-padding: 4%;
+    background-color: #2d2d2d;
+    color: white;
+    padding: 4%;
 }

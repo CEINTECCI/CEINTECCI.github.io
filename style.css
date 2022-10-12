@@ -8,10 +8,6 @@
     color: black;
 }
 
-.card-body{
-    height: 27vh;
-}
-
 .social li {
     font-size: 17px;
     float: right;
@@ -25,6 +21,10 @@ ul{
 li a {
     color: black !important;
     list-style: none;
+}
+
+a{
+    font-size: 12px !important;
 }
 
 nav {
@@ -53,17 +53,22 @@ a:hover {
     height: 48px;
 }
 
-.button-style{
-    height: 5vh;
-}
-
 .text{
-    height: 90px;
+    height: 80px;
     overflow: auto;
     margin-bottom: 8px;
 }
 
-footer {
+.card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+.footer-principal-page {
     background-color: #2d2d2d;
     color: white;
     padding: 4%;

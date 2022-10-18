@@ -39,7 +39,7 @@ h5 {
     padding-top: 2%;
 }
 
-.card {
+.card-container {
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
     border: 1px solid #369 !important;

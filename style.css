@@ -108,6 +108,8 @@ a:hover {
 @media (max-width:580px) {
     header {
         flex-direction: column;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
     }
 
     .text {

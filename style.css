@@ -1,3 +1,4 @@
+
 .fondo {
     background-color: whitesmoke;
     padding-right: 0px !important;
@@ -72,4 +73,10 @@ a:hover {
     background-color: #2d2d2d;
     color: white;
     padding: 4%;
+}
+
+@media (max-width:580px) {
+    .text{
+        font-size: 20px;
+    }
 }

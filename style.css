@@ -106,14 +106,14 @@ a:hover {
 }
 
 @media (max-width:580px) {
-    header {
-        flex-direction: column;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
-    }
-
     .text {
         font-size: 20px;
+    }
+}
+
+@media (max-width:783px) {
+    header {        
+        flex-direction: column !important;
     }
 }
 
@@ -121,6 +121,6 @@ a:hover {
     header {
         margin-left: 0% !important;
         margin-right: 0% !important;
-        flex-direction: column;
     }
 }
+

@@ -1,3 +1,7 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
 
 .fondo {
     background-color: whitesmoke;
@@ -9,29 +13,55 @@
     color: black;
 }
 
-.social li {
-    font-size: 17px;
-    float: right;
-    padding-right: 1%;
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
-ul{
-    list-style: none;
+.logo img {
+    height: 50px;
+    margin-right: 10px;
 }
 
-li a {
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    min-height: 70px;
+    background-color: whitesmoke;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-theme {
+    font-size: 20px !important;
+}
+
+.navbar-text {
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 10px;
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    padding-right: 10px !important;
     color: black !important;
-    list-style: none;
 }
 
-a{
+.nav-link:hover {
+    color: blue !important;
+}
+
+a {
     font-size: 12px !important;
 }
 
-nav {
-    margin-top: 6%;
-    border-top: 1px solid black;
-}
 
 a:hover {
     text-decoration: none !important;
@@ -54,18 +84,18 @@ a:hover {
     height: 48px;
 }
 
-.text{
+.text {
     height: 80px;
     overflow: auto;
     margin-bottom: 8px;
 }
 
-.card-title{
+.card-title {
     font-size: 18px;
     font-weight: bold;
 }
 
-.card-text{
+.card-text {
     font-size: 13px;
 }
 
@@ -76,7 +106,19 @@ a:hover {
 }
 
 @media (max-width:580px) {
-    .text{
+    header {
+        flex-direction: column;
+    }
+
+    .text {
         font-size: 20px;
+    }
+}
+
+@media (max-width:980px) {
+    header {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        flex-direction: column;
     }
 }

@@ -5,6 +5,12 @@ object-assign
 */
 
 /*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
 
 =========================================================
 * Black Dashboard React v1.2.0
@@ -27,12 +33,6 @@ object-assign
     Licensed under the MIT License (MIT), see
     http://jedwatson.github.io/classnames
   */
-
-/*!
-  Copyright (c) 2018 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/
 
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
 

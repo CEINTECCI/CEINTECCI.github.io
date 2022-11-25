@@ -1,118 +1,150 @@
 .fondo {
-    background-color: whitesmoke;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+  background-color: whitesmoke;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 .fondo h1 {
-    color: black;
+  color: black;
 }
 
-.social li {
-    font-size: 17px;
-    display: inline-block;
-    padding-right: 1%;
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
-li a {
-    color: black !important;
+.logo img {
+  height: 50px;
+  margin-right: 10px;
 }
 
-nav {
-    margin-top: 6%;
-    border-top: 1px solid black;
+header {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  min-height: 70px;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
+
+.icon-theme {
+  font-size: 20px !important;
+}
+
+.navbar-text {
+  text-decoration: none;
+  font-weight: 600;
+  padding-right: 10px;
+  color: black;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  padding-right: 10px !important;
+  color: black !important;
+}
+
+.nav-link:hover {
+  color: blue !important;
+}
+
 
 a:hover {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 h5 {
-    font-size: 15px !important;
+  font-size: 15px !important;
 }
 
 .espaciado {
-    padding-bottom: 3%;
+  padding-bottom: 3%;
 }
 
 .espaciado_2 {
-    padding-top: 2%;
+  padding-top: 2%;
 }
 
 .card-container {
-    border-top-left-radius: 25px !important;
-    border-top-right-radius: 25px !important;
-    border: 1px solid #369 !important;
-    box-shadow: 3px 3px 8px;
-    width: 18rem !important;
-    background: whitesmoke;
-    text-align: center;
-    padding-top: 10px;
+  border-top-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  border: 1px solid #369 !important;
+  box-shadow: 3px 3px 8px;
+  width: 18rem !important;
+  background: whitesmoke;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .card-horizontal {
-    border-radius: 25px !important;
-    border: 1px solid #369 !important;
-    box-shadow: 3px 3px 8px;
-    width: 18rem;
-    background: whitesmoke;
-    text-align: center;
-    padding-top: 10px;
+  border-radius: 25px !important;
+  border: 1px solid #369 !important;
+  box-shadow: 3px 3px 8px;
+  width: 18rem;
+  background: whitesmoke;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .card_color {
-    background-color: #f3eded;
+  background-color: #f3eded;
 }
 
 .container-img {
-    text-align: center !important;
-    margin-bottom: 10px;
+  text-align: center !important;
+  margin-bottom: 10px;
 }
 
 .photo {
-    border-radius: 100%;
-    box-shadow: 3px 3px 8px;
-    float: inline-start;
-    width: 120px;
-    height: 120px;
+  border-radius: 100%;
+  box-shadow: 3px 3px 8px;
+  float: inline-start;
+  width: 120px;
+  height: 120px;
 
 }
 
 .photo-horizontal {
-    border-radius: 100%;
-    box-shadow: -3px 3px 8px;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
+  border-radius: 100%;
+  box-shadow: -3px 3px 8px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
 
 }
 
 .photo-horizontal2 {
-    border-radius: 100%;
-    box-shadow: 3px 3px 8px;
-    display: inline-block;
-    margin-left: -15px;
-    width: 50px;
-    height: 50px;
+  border-radius: 100%;
+  box-shadow: 3px 3px 8px;
+  display: inline-block;
+  margin-left: -15px;
+  width: 50px;
+  height: 50px;
 
 }
 
 .ecci_logos {
-    width: 300px;
-    height: 48px;
+  width: 300px;
+  height: 48px;
 }
 
 footer {
-    background-color: #2d2d2d;
-    color: white;
-    padding: 4%;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 4%;
 }
 
 p {
-    font-size: 12px;
+  font-size: 12px;
 }
 
-
+/*
 .icon-cards {
     position: relative;
     width: 18rem !important;
@@ -188,4 +220,4 @@ p {
     82.5%, 100% {
       transform: translateZ(-35vw) rotateY(-360deg);
     }
-  }
+  }*/

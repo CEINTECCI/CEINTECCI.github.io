@@ -99,10 +99,17 @@ a:hover {
     font-size: 13px;
 }
 
+.container-footer{
+    background: #2d2d2d !important;
+    color: white !important;
+    padding: 4% !important;
+    background-color: #2d2d2d !important;
+}
+
 .footer-principal-page {
-    background-color: #2d2d2d;
-    color: white;
-    padding: 4%;
+    background-color: #2d2d2d !important;
+    color: white !important;
+    
 }
 
 @media (max-width:580px) {

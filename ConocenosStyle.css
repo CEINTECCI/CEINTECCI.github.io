@@ -74,8 +74,9 @@ h5 {
 .card-container {
   border-top-left-radius: 25px !important;
   border-top-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
   border: 1px solid #369 !important;
-  box-shadow: 3px 3px 8px;
   width: 18rem !important;
   background: whitesmoke;
   text-align: center;

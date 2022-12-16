@@ -145,7 +145,7 @@ p {
   font-size: 12px;
 }
 
-/*
+
 .icon-cards {
     position: relative;
     width: 18rem !important;
@@ -221,4 +221,4 @@ p {
     82.5%, 100% {
       transform: translateZ(-35vw) rotateY(-360deg);
     }
-  }*/
+  }

@@ -1,9 +1,50 @@
-.overlay-text {
+.btn-tour {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+    z-index: 1;
+    color: rgb(255, 255, 255) !important;
+    font-size: 40px !important; 
+    transition: background-color 0.3s ease;
+    background-color: rgba(102, 106, 177, 0.37)!important ;
+    text-shadow: 0px 0px 2px #000000;
+}
+
+.btn-tour:hover {
+    background-color: rgba(102, 106, 177, 0.37);
+    font-size: 40px !important; 
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #3020c5
+        #ffff
+        #38cfa2
+    );
+    border-radius: 20px;
+    color:#ffff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button span {
+background-color: #1111;
+padding: 4px;
+border-radius: 6px;
+transition: .3s;
+
+}
+
+button:hover span{
+    background:none;
+}
+
+button:active{
+    transform: scale(0.9);
 }

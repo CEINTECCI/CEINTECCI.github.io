@@ -4,18 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bubble chat test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <div
-    style="
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    "
-  >
-    <img src="../../images/CEINTECCI.png" alt="CEINTECCI logo">
-  </div>
+  <navbar class="flex items-center justify-between w-full max-w-6xl mt-5 mx-auto">
+    <a href="/bubble-test">
+      <img
+        src="../../images/CEINTECCI.png"
+        alt="CEINTECCI logo"
+      >
+    </a>
+    <div class="flex items-center space-x-5 w-fit">
+      <h4 class='font-black'>Selecciona tu sede</h4>
+      <select
+        id="change-location"
+        name="change-location"
+        class="select select-bordered w-64"
+      >
+        <option value="1" selected>Bogotá</option>
+        <option value="2" >Medellín</option>
+      </select>
+    </div>
+  </navbar>
 
   <!-- Bubble chat -->
   <div id="bubble"></div>

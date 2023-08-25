@@ -1,25 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bubble chat test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <div
-    style="
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-    "
-  >
-    <img src="../images/CEINTECCI.png" alt="CEINTECCI logo">
-  </div>
+  <navbar class="flex items-center justify-between w-full max-w-6xl mt-5 mx-auto">
+    <img
+      src="../images/CEINTECCI.png"
+      alt="CEINTECCI logo"
+    >
+    <div class="flex items-center space-x-5 w-fit">
+      <h4 class='font-black'>Selecciona tu sede</h4>
+      <select
+        id="change-location"
+        name="change-location"
+        class="select select-bordered w-64"
+      >
+        <option value="1" selected>Bogotá</option>
+        <option value="2" >Medellín</option>
+      </select>
+    </div>
+  </navbar>
+
+  <main class="flex flex-col items-center my-10">
+    <article class="m-5">
+      <h2 class="font-black my-10">Programas</h2>
+      <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl">
+        <!-- Ingeniería electrónica -->
+        <li class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="/programas/ingenieria-electronica">
+            <img
+              class="rounded-t-lg"
+              src="../images/meet.webp"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="/programas/ingenieria-electronica">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Ingeniería electrónica
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. In blandit pellentesque
+              neque porta porttitor. Donec.
+            </p>
+            <a href="/programas/ingenieria-electronica" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+              Más información
+              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </li>
+
+        <!-- Diseño de modas -->
+        <li class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="/programas/diseno-de-modas">
+            <img
+              class="rounded-t-lg"
+              src="../images/open_labs.webp"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="/programas/diseno-de-modas">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Diseño de modas
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Pellentesque congue
+              nisi diam, dapibus fringilla ex.
+            </p>
+            <a href="/programas/diseno-de-modas" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+              Más información
+              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </li>
+
+        <!-- Enfermería -->
+        <li class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="/programas/enfermeria">
+            <img
+              class="rounded-t-lg"
+              src="../images/BLS3.webp"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="/programas/enfermeria">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Enfermería
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Pellentesque congue
+              nisi diam, dapibus fringilla ex.
+            </p>
+            <a href="/programas/enfermeria" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+              Más información
+              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </li>
+
+        <!-- Derecho -->
+        <li class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="/programas/derecho">
+            <img
+              class="rounded-t-lg"
+              src="../images/blab.webp"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="/programas/derecho">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Derecho
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Pellentesque congue
+              nisi diam, dapibus fringilla ex.
+            </p>
+            <a href="/programas/derecho" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+              Más información
+              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </li>
+
+        <!-- Tecnología en Desarrollo Informático -->
+        <li class="max-w-sm bg-white border border-gray-200 rounded-lg shadow">
+          <a href="/programas/tecnologia-en-desarrollo-informatico">
+            <img
+              class="rounded-t-lg"
+              src="../images/cisco.webp"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="/programas/tecnologia-en-desarrollo-informatico">
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+                Tecnología en Desarrollo Informático
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700">
+              Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Pellentesque congue
+              nisi diam, dapibus fringilla ex.
+            </p>
+            <a href="/programas/tecnologia-en-desarrollo-informatico" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300">
+              Más información
+              <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+              </svg>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </article>
+  </mai>
 
   <!-- Bubble chat -->
   <div id="bubble"></div>
-  <script type="module" crossorigin src="../static/bubble-chat/index.js"></script>
+  <script
+    type="module"
+    src="../static/bubble-chat/index.js"
+    crossorigin
+  ></script>
   <link rel="stylesheet" href="../static/bubble-chat/index.css">
 </body>
 </html>

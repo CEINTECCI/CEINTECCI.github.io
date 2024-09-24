@@ -1,0 +1,26 @@
+{
+  "site": {
+    "title": "Ceintecci ",
+    "base_url": "https://ceintecci.github.io",
+    "base_path": "/",
+    "favicon": "/IconoCeintecci.png",
+    "logoLight": "/CEINTECCI.png",
+    "logoDark": "/CEINTECCI.png",
+    "lang": "es",
+    "description": "Página Web del Centro de Investigación de la universidad ECCI (Ceintecci) ",
+    "pageSize": 6
+  },
+  "features": {
+    "youtube": false,
+    "dark_mode": false
+  },
+  "metadata": {
+    "meta_author": "Ceintecci",
+    "meta_description": "EV0 is a free and open-source serverless blog template, built with Astro, , and TypeScript."
+  },
+  "author": {
+    "name": "",
+    "avatar": "/LOGOS2.png",
+    "bio": "El Centro de Investigación e Innovación en Tecnología y Ciencia, CEINTECCI, es un centro de investigaciones adscrito a la Universidad ECCI. Su creación, a finales de 2015, hace parte de la estrategia institucional para el fortalecimiento de las investigaciones interdisciplinarias que generan nuevo conocimiento y desarrollo tecnológico con un enfoque social. "
+  }
+}

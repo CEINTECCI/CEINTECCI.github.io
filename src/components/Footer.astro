@@ -1,0 +1,50 @@
+---
+import config from "@config/config.json";
+const year = new Date().getFullYear();
+---
+
+<footer class="container-footer bg-black py-8">
+  <div class="container-footer mx-auto max-w-screen-lg px-4 sm:px-6 lg:px-8 text-white">
+    <div class="row justify-start items-center">
+      <div class="col-12 col-md-7 col-lg-8 mb-5 mb-lg-0 mt-10">
+        <img
+          src="https://www.ecci.edu.co/wp-content/uploads/2022/01/logo_blanco.png"
+          width="301px"
+          height="50px"
+          alt="Logo Universidad ECCI"
+          class="img_footer mb-3 lazyloaded ls-is-cached"
+          loading="lazy"
+        />
+        <p class="mb-0 text-white fz-12">
+          Universidad ECCI | Vigilada Mineducación
+        </p>
+        <p class="mb-0 text-white fz-12">
+          Reconocimiento como Universidad: Resolución No. 13370 de 19 de Agosto de 2014.
+        </p>
+        <p class="mb-0 text-white fz-12">
+          © {year} – Derechos Reservados Universidad ECCI – Fundada en 1977
+        </p>
+      </div>
+      <div class="col-12 col-md-5 col-lg-4 mt-4 lg:mt-0 text-right">
+        <div class="flex justify-center lg:justify-end items-center space-x-4">
+          <img
+            src="https://www.ecci.edu.co/wp-content/uploads/2022/01/ecci01.png"
+            width="150px"
+            height="112px"
+            class="logo_certificado mb-4 mb-sm-0"
+            alt="Certificado ECCI"
+            loading="lazy"
+          />
+          <img
+            src="https://www.ecci.edu.co/wp-content/uploads/2022/01/ecci02.png"
+            width="160px"
+            height="86px"
+            class="logo_certificado"
+            alt="Certificado ECCI"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

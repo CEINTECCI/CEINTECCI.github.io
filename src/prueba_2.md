@@ -1,4 +1,0 @@
-Brayan Felipe Pinzón
-Jóven Investigador
-Proyecto “Modelo músculo – esquelético de un paciente libre de patologías, con morfología, característica latinoamericana, de la región lumbosacra L4-S1”.
-brayanf.pinzong@ecci.edu.co

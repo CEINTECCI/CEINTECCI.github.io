@@ -8,7 +8,7 @@ tags: ['Meetlab','Coworking']
 author: '["Ceintecci"]'
 ---
 
-Más información, imagenes y link de reserva.
+Una sala equipada con los dispositivos necesarios para tener videoconferencias y conferencias presenciales.
 
 
 Reserva aquí nuestro <a href="https://docs.google.com/forms/d/e/1FAIpQLSektoNLJMACvMa4XOJFbopFNDgHE92PnhG5YETlf5hgqeGLQQ/viewform" target="_blank">salón coworking</a>.

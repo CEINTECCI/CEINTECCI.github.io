@@ -1,7 +1,7 @@
 Información y reserva de laboratorios CEINTECCI
 En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI.
 
-Desarrollada con Astro y tailwind
+Desarrollada con Astro y Tailwind. 
 
 Link de la página: https://ceintecci.github.io/
 

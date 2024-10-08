@@ -25,9 +25,7 @@
   li * {
     @apply text-zinc-700 dark:text-zinc-300;
   }
-  ul, li, p {
-    font-family: inherit; /* Esto hace que hereden la fuente del cuerpo */
-  }
+ 
   kbd {
     @apply bg-white text-zinc-700;
   }

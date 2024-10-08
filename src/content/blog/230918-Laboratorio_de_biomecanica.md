@@ -12,6 +12,12 @@ Reserva aquí nuestro <a href="https://docs.google.com/forms/d/e/1FAIpQLSdLw8_Y-
 
 En el Laboratorio de biomecánica se realizan análisis de las variables cinemáticas del movimiento a partir de datos de posición de marcadores reflectantes pasivos ubicados en el cuerpo de estudio, obtenidos mediante un sistema de captura óptico. Adicionalmente, a través de una plataforma de fuerza se obtiene información de las variables cinéticas, representadas por las fuerzas y momentos de reacción, del movimiento ejecutado.
 
-Equipos: 
--	Sistema óptico de captura de movimiento 
--	Sistema de plataforma de fuerza
+
+<h4>Sistema óptico de captura de movimiento</h4>
+
+El sistema de plataforma de fuerza está conformado por una plataforma de fuerza AMTI BP400600-OP-2K, que tiene una capacidad de 900 N y mide la fuerza y momentos de reacción en los ejes X,Y y Z. El software de adquisición de este 
+sistema es NetForce, que permite realizar calibración y capturar datos. 
+
+<h4>Sistema de plataforma de fuerza</h4>
+
+El sistema de plataforma de fuerza está conformado por una plataforma de fuerza AMTI BP400600-OP-2K, que tiene una capacidad de 900 N y mide la fuerza y momentos de reacción en los ejes X,Y y Z. El software de adquisición de este sistema es NetForce, que permite realizar calibración y capturar datos. 

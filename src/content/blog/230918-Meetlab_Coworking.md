@@ -1,7 +1,7 @@
 ---
 title: 'Meetlab / Coworking'
 description: 'Una sala equipada con los dispositivos necesarios para tener videoconferencias y conferencias presenciales.'
-pubDate: '2021-09-19T01:21:03.940Z'
+pubDate: '2024-11-27T01:21:03.940Z'
 heroImage: '/blog-placeholder.jpg'
 categories: ['Coworking']
 tags: ['Meetlab','Coworking']

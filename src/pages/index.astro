@@ -1,15 +1,27 @@
 ---
-import { getCollection } from "astro:content";
-import HomePagination from "@components/HomePagination.astro";
 import Base from "@layouts/Base.astro";
-import Posts from "@layouts/Posts.astro";
 
-const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const categories = [
+  { name: "Laboratorios", slug: "Laboratorio", image: "/public/Lab_main.webp" },
+  { name: "Investigaciones", slug: "investigaciones", image: "/images/investigaciones.jpg" },
+  { name: "Convocatorias", slug: "Convocatorias", image: "/public/convocatorias.webp" },
+  { name: "Eventos", slug: "eventos", image: "/images/eventos.jpg" }
+];
 ---
 
 <Base>
-  <Posts posts={posts} />
-  <HomePagination />
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
+    {categories.map((category) => (
+      <a href={`/categories/${category.slug}/`} class="block group">
+        <div class="relative w-full h-64 overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105">
+          <img src={category.image} alt={category.name} class="w-full h-full object-cover" />
+          <div class="absolute inset-0 flex items-center justify-center">
+            <h2 class="text-white text-3xl font-extrabold tracking-wide px-4 py-2 bg-white bg-opacity-50 border-2 border-white rounded-lg shadow-lg drop-shadow-[2px_2px_4px_rgba(0,0,0,1)]">
+              {category.name}
+            </h2>
+          </div>
+        </div>
+      </a>
+    ))}
+  </section>
 </Base>

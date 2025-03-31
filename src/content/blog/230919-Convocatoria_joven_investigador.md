@@ -3,7 +3,7 @@ title: 'Convocatoria Joven Investigador'
 description: 'Si eres profesor presenta tu plan de trabajo, si eres estudiante presenta tu hoja de vida.'
 pubDate: '2024-07-18T01:09:01.514Z'
 heroImage: '/convocatoria.webp'
-categories: ['Convocatoria 2024']
+categories: ['Convocatorias']
 tags: [Joven Investigador]
 author: '["Ceintecci"]'
 ---

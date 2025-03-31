@@ -1,5 +1,5 @@
 ---
-title: 'Laboratorio Hipertermia magnética'
+title: 'Laboratorio de Nuevos Materiales'
 description: 'Laboratorio adecuado para el análisis de muestras con propiedades magnéticas con aplicaciones, especialmente biológicas.'
 pubDate: '2021-09-19T01:20:54.690Z'
 heroImage: '/Laboratorio-de-hipertermia-magnetica-2.jpg'

@@ -2,7 +2,7 @@
 title: 'Laboratorio de simulación y ciencia de datos'
 description: 'El laboratorio está capacitado para el desarrollo de proyectos de investigación a través de la simulación computacional.'
 pubDate: 'Jul 01 2022'
-heroImage: '/Laboratorio-de-simulacion.jpg'
+heroImage: '/Lab_C&S.JPG'
 categories: ['Laboratorio']
 authors: ['Ceintecci']
 tags: ['Ciencia','Simulación']

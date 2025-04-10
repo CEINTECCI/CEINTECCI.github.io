@@ -17,7 +17,4 @@ En el Laboratorio de biomecánica se realizan análisis de las variables cinemá
 
 El sistema de plataforma de fuerza está conformado por una plataforma de fuerza AMTI BP400600-OP-2K, que tiene una capacidad de 900 N y mide la fuerza y momentos de reacción en los ejes X,Y y Z. El software de adquisición de este 
 sistema es NetForce, que permite realizar calibración y capturar datos. 
-
-<h4>Sistema de plataforma de fuerza</h4>
-
-El sistema de plataforma de fuerza está conformado por una plataforma de fuerza AMTI BP400600-OP-2K, que tiene una capacidad de 900 N y mide la fuerza y momentos de reacción en los ejes X,Y y Z. El software de adquisición de este sistema es NetForce, que permite realizar calibración y capturar datos. 
+ 

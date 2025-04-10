@@ -7,22 +7,22 @@ export default {
     },
     {
       name: 'x',
-      url: 'https://x.com/gndx',
+      url: '',
       svg: '<svg class="transition-all w-6 h-6 cursor-pointer text-zinc-400 hover:text-blue-300 fill-current" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M 11 4 C 7.134 4 4 7.134 4 11 L 4 39 C 4 42.866 7.134 46 11 46 L 39 46 C 42.866 46 46 42.866 46 39 L 46 11 C 46 7.134 42.866 4 39 4 L 11 4 z M 13.085938 13 L 21.023438 13 L 26.660156 21.009766 L 33.5 13 L 36 13 L 27.789062 22.613281 L 37.914062 37 L 29.978516 37 L 23.4375 27.707031 L 15.5 37 L 13 37 L 22.308594 26.103516 L 13.085938 13 z M 16.914062 15 L 31.021484 35 L 34.085938 35 L 19.978516 15 L 16.914062 15 z"></path></svg>',
     },
     {
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/oscarbarajas/',
+      url: '',
       svg: '<svg class= "transition-all w-6 h-6 cursor-pointer text-zinc-400 hover:text-blue-500 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><title>Linkedin</title><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path></svg>',
     },
     {
       name: 'facebook',
-      url: 'https://facebook.com/gndx',
+      url: '',
       svg: '<svg class="transition-all w-6 h-6 cursor-pointer text-zinc-400 hover:text-[#1877F2] fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Facebook</title><path d="M22.675 0H1.325C.593 0 0 .593 0 1.326v21.348C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.787 4.658-4.787 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.796.714-1.796 1.763v2.311h3.586l-.467 3.622h-3.119V24h6.104C23.407 24 24 23.407 24 22.675V1.326C24 .593 23.407 0 22.675 0z"/></svg>',
     },
     {
       name: 'tiktok',
-      url: 'https://tiktok.com/@gndx',
+      url: '',
       svg: '<svg class="transition-all w-6 h-6 cursor-pointer text-zinc-400 hover:text-[#010101] fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><title>TikTok</title><path d="M232.719,82.12a88.867,88.867,0,0,1-48.81-14.87,92.193,92.193,0,0,1-8.25-6.8c-.28-.25-.56-.49-.83-.75l-.22-.21-.1-.08a56.1,56.1,0,0,1-13.67-21.71,55.038,55.038,0,0,1-3.16-18.39H120V168.34a32.001,32.001,0,1,1-22.63-30.55V98.45a66.913,66.913,0,0,0-9.72-.75,72.128,72.128,0,1,0,40.35,131.76,69.973,69.973,0,0,0,31.37-58.55V97.19a88.913,88.913,0,0,0,48.79,14.86h.33V82.12ZM176.969,0H120V66.81h56.97a55.249,55.249,0,0,1-3.11-13.62V0Z"/></svg>'
     },
   ]

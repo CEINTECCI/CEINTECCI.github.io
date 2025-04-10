@@ -1,8 +1,7 @@
 ---
 import Base from "@layouts/Base.astro";
 import { getTaxonomy, getSinglePage, taxonomyFilter } from "@utils/getAllTags";
-import { deslugify, slugify } from "@utils/slug";
-import FormattedDate from "@components/FormattedDate.astro";
+import { deslugify } from "@utils/slug";
 
 export async function getStaticPaths() {
   const categories = await getTaxonomy("blog", "categories");
@@ -19,50 +18,65 @@ const filterByCategory = taxonomyFilter(posts, "categories", category);
 <Base>
   <h1 class="text-3xl font-bold mb-8 capitalize">Categoría: {deslugify(category)}</h1>
   <div class="mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16">
-    {
-      filterByCategory?.map((post) => (
-        <article class="flex w-full flex-col items-start">
-          <div class="rounded-lg block overflow-hidden mb-4">
-            {post.data.heroImage && (
-              <a href={`/blog/${post.slug}/`}>
-                <figure class="w-auto h-auto md:h-[150px] object-cover">
-                  <img
-                    class="transition duration-300 ease-in-out hover:scale-110"
-                    src={post.data.heroImage}
-                    alt={post.data.title}
-                    width={960}
-                    height={480}
-                    decoding="async"
-                    loading="lazy"
-                  />
-                </figure>
+    {filterByCategory?.map((post) => (
+      <article class="flex w-full flex-col items-start">
+        {/* Sección de la imagen */}
+        <div class="rounded-lg block overflow-hidden mb-4">
+          {post.data.heroImage && (
+            <a href={`/blog/${post.slug}/`}>
+              <figure class="w-auto h-auto md:h-[150px] object-cover">
+                <img
+                  class="transition duration-300 ease-in-out hover:scale-110"
+                  src={post.data.heroImage}
+                  alt={post.data.title}
+                  width={960}
+                  height={480}
+                  decoding="async"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+          )}
+        </div>
+
+        {/* Botones para Laboratorio (comparación en minúsculas) */}
+        {post.data.categories &&
+         post.data.categories.some((cat) => cat.toLowerCase() === "laboratorio") && (
+          <div class="flex gap-4 mb-3">
+            {post.data.tourLink && (
+              <a
+                href={post.data.tourLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Tour Virtual
+              </a>
+            )}
+            {post.data.reservaLink && (
+              <a
+                href={post.data.reservaLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Reserva Aquí
               </a>
             )}
           </div>
-          <div class="flex items-center gap-x-4 text-xs text-zinc-900 dark:text-white">
-            <FormattedDate date={post.data.pubDate} />
-            {post.data.categories.slice(0, 2).map((item) => (
-              <a
-                href={`/categories/${slugify(item)}`}
-                class="capitalize text-md relative z-10 rounded-full bg-zinc-50 px-3 py-1.5 font-medium text-zinc-600 hover:bg-zinc-50 dark:bg-zinc-900 dark:text-zinc-400"
-              >
-                {item}
-              </a>
-            ))}
-          </div>
-          <div class="relative">
-            <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
-              <a href={`/blog/${post.slug}/`}>
-                <span class="absolute inset-0" />
-                {post.data.title}
-              </a>
-            </h2>
-            <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-600">
-              {post.data.description}
-            </p>
-          </div>
-        </article>
-      ))
-    }
+        )}
+
+        {/* Título y descripción */}
+        <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
+          <a href={`/blog/${post.slug}/`}>
+            {post.data.title}
+          </a>
+        </h2>
+
+        <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-600">
+          {post.data.description}
+        </p>
+      </article>
+    ))}
   </div>
 </Base>

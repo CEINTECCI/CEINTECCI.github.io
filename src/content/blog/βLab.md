@@ -2,10 +2,12 @@
 title: 'βLab'
 description: 'El laboratorio BLAB es un espacio especializado en diseño dispositivos Electrónicos Flexibles.'
 pubDate: '2022'
-heroImage: '/Laboratorio-Blab.jpeg'
+heroImage: '/Laboratorio-Blab.webp'
 categories: ['Laboratorio']
 authors: ['gndx']
 tags: ['βLab']
+tourLink: 'https://ceintecci.github.io/Beta_lab_virtual_tour/'
+reservaLink: 'https://docs.google.com/forms/d/e/1FAIpQLSeXDg3Y-V8f4DodiTsgGqM3ByGaaaaHTEeT6JjPv07nL-8U8w/viewform'
 ---
 
 Conoce nuestro laboratorio mediante nuestro <a href="https://ceintecci.github.io/Beta_lab_virtual_tour/" target="_blank">Tour virtual</a>.

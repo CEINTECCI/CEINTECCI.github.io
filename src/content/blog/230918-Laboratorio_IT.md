@@ -2,7 +2,7 @@
 title: 'Laboratorio IT'
 description: 'El laboratorio IT es un espacio especializado en la infraestructura de redes de comunicaciones, plataformas de radiofrecuencia (RF).'
 pubDate: '2021-09-19T01:22:34.123Z'
-heroImage: '/Laboratorio_IT.JPG'
+heroImage: '/Laboratorio_IT.webp'
 categories: ['Laboratorio']
 tags: ['IT']
 author: '["ceintecci"]'

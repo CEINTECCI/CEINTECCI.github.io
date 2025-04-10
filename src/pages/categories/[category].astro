@@ -38,35 +38,6 @@ const filterByCategory = taxonomyFilter(posts, "categories", category);
             </a>
           )}
         </div>
-
-        {/* Botones para Laboratorio (comparación en minúsculas) */}
-        {post.data.categories &&
-         post.data.categories.some((cat) => cat.toLowerCase() === "laboratorio") && (
-          <div class="flex gap-4 mb-3">
-            {post.data.tourLink && (
-              <a
-                href={post.data.tourLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
-              >
-                Tour Virtual
-              </a>
-            )}
-            {post.data.reservaLink && (
-              <a
-                href={post.data.reservaLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md text-sm font-medium"
-              >
-                Reserva Aquí
-              </a>
-            )}
-          </div>
-        )}
-
-        {/* Título y descripción */}
         <h2 class="mt-3 text-xl font-semibold leading-6 text-zinc-900 dark:text-white group-hover:text-zinc-600">
           <a href={`/blog/${post.slug}/`}>
             {post.data.title}
@@ -76,6 +47,32 @@ const filterByCategory = taxonomyFilter(posts, "categories", category);
         <p class="mt-5 line-clamp-3 text-sm leading-6 text-zinc-600">
           {post.data.description}
         </p>
+        {post.data.categories &&
+         post.data.categories.some((cat) => cat.toLowerCase() === "laboratorio") && (
+          <div class="flex gap-4 mt-8">
+            {post.data.tourLink && (
+              <a
+                href={post.data.tourLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-gray-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Tour Virtual
+              </a>
+            )}
+            {post.data.reservaLink && (
+              <a
+                href={post.data.reservaLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-gray-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Reserva Aquí
+              </a>
+            )}
+          </div>
+        )}
+
       </article>
     ))}
   </div>

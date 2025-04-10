@@ -6,6 +6,8 @@ heroImage: '/Laboratorio-BLS3.webp'
 categories: ['Laboratorio']
 tags: ['Ciencias Biológicas']
 author: '["Ceintecci"]'
+tourLink: ''
+reservaLink: 'https://docs.google.com/forms/d/e/1FAIpQLSegeBuDeDHZXEg_hErRR0drE2l-G5MasvdVGkVVfG_7nA8mkQ/viewform'
 ---
 
 Reserva aquí nuestro <a href="https://docs.google.com/forms/d/e/1FAIpQLSegeBuDeDHZXEg_hErRR0drE2l-G5MasvdVGkVVfG_7nA8mkQ/viewform" target="_blank">Laboratorio de ciencias biológicas (BSL3)</a>.

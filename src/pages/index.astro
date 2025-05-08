@@ -2,28 +2,44 @@
 import Base from "@layouts/Base.astro";
 
 const categories = [
-  { name: "Laboratorios", slug: "Laboratorio", image: "/public/Laboratorios.webp" },
-  { name: "Investigaciones", slug: "investigaciones", image: "/public/investigaciones.webp" },
-  { name: "Productos", slug: "Productos", image: "/public/Productos.webp" },
-  { name: "Convocatorias", slug: "Convocatorias", image: "/public/convocatoria.webp" },
-  { name: "Sprint Days", slug: "Sprint Days", image: "/public/sprintDays.webp" },
-  { name: "OpenLabs", slug: "OpenLAB", image: "/public/OpenLabs.webp" }
+  { name: "Laboratorios", slug: "Laboratorio", image: "/Laboratorios.webp" },
+  { name: "Investigaciones", slug: "investigaciones", image: "/investigaciones.webp" },
+  { name: "Productos", slug: "Productos", image: "/Productos.webp" },
+  { name: "Convocatorias", slug: "Convocatorias", image: "/convocatoria.webp" },
+  { name: "Sprint Days", slug: "Sprint Days", image: "/sprintDays.webp" },
+  { name: "OpenLabs", slug: "OpenLAB", image: "/OpenLabs.webp" }
 ];
 ---
 
 <Base>
-  <section class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center">
-    {categories.map((category) => (
-      <a href={`/categories/${category.slug}/`} class="block group">
-        <div class="relative w-full h-64 overflow-hidden rounded-lg shadow-lg transition-transform transform hover:scale-105">
-          <img src={category.image} alt={category.name} class="w-full h-full object-cover" />
-          <div class="absolute inset-0 flex items-center justify-center">
-            <h2 class="text-white text-3xl font-extrabold tracking-wide px-4 py-2 bg-white bg-opacity-50 border-2 border-white rounded-lg shadow-lg drop-shadow-[2px_2px_4px_rgba(0,0,0,1)]">
-              {category.name}
-            </h2>
+  <section class="container mx-auto py-12 px-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {categories.map((category) => (
+        <a href={`/categories/${category.slug}/`} class="group block">
+          <div class="relative h-72 overflow-hidden rounded-xl shadow-lg transition-all duration-300 group-hover:shadow-xl">
+            <!-- Imagen -->
+            <div class="absolute inset-0 w-full h-full">
+              <img
+                src={category.image}
+                alt={category.name}
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                loading="lazy"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent opacity-80 transition-opacity duration-300 group-hover:opacity-50"></div>
+            </div>
+
+            <!-- Texto -->
+            <div class="absolute inset-0 flex items-center justify-center p-6">
+              <div class="relative transform transition-transform duration-300 group-hover:scale-105">
+                <h2 class="!text-white text-3xl font-extrabold tracking-wide text-center drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
+                  {category.name}
+                </h2>
+                <div class="h-1 w-0 bg-white mx-auto mt-2 rounded-full transition-all duration-300 group-hover:w-2/3"></div>
+              </div>
+            </div>
           </div>
-        </div>
-      </a>
-    ))}
+        </a>
+      ))}
+    </div>
   </section>
 </Base>

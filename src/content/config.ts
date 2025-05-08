@@ -11,6 +11,7 @@ const blogCollection = defineCollection({
     authors: z.array(z.string()).optional(),
     tourLink: z.string().optional(),
     reservaLink: z.string().optional(),
+    CVLink: z.string().optional(),
   })
 });
 

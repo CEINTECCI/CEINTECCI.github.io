@@ -48,15 +48,15 @@ const filterByCategory = taxonomyFilter(posts, "categories", category);
           {post.data.description}
         </p>
         {post.data.categories &&
-         post.data.categories.some((cat) => cat.toLowerCase() === "laboratorio") && (
+         post.data.categories.some((cat) => cat.toLowerCase() === "laboratorio" || "convocatorias")&&(
           <div class="flex gap-4 mt-8">
             {post.data.tourLink && (
               <a
                 href={post.data.tourLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="bg-gray-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium"
-              >
+                class="bg-gray-600 hover:bg-ceintecciBlue text-white px-4 py-2 rounded-md text-sm font-medium"
+                >
                 Tour Virtual
               </a>
             )}
@@ -68,6 +68,16 @@ const filterByCategory = taxonomyFilter(posts, "categories", category);
                 class="bg-gray-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md text-sm font-medium"
               >
                 Reserva Aquí
+              </a>
+            )}
+            {post.data.CVLink && (
+              <a
+                href={post.data.CVLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bg-gray-600 hover:bg-pink-700 text-white px-4 py-2 rounded-md text-sm font-medium"
+              >
+                Envía tu CV aquí
               </a>
             )}
           </div>

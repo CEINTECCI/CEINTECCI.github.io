@@ -1,10 +1,12 @@
 /** @type {import('tailwindcss').Config} */
-
 module.exports = {
   content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        ceintecciBlue: '#134169', // <- AHORA está correctamente ubicado
+      },
       typography: (theme) => ({
         DEFAULT: {
           css: {

@@ -9,10 +9,6 @@
       "url": "/about"
     },
     {
-      "name": "Tags",
-      "url": "/tags"
-    },
-    {
       "name": "Categorías",
       "url": "/categories"
     }

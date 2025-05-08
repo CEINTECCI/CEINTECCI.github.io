@@ -1,11 +1,12 @@
 ---
 title: 'Convocatoria Joven Investigador'
-description: 'Si eres profesor presenta tu plan de trabajo, si eres estudiante presenta tu hoja de vida.'
+description: 'Convocatoria para estudiantes o egresados en el desarrollo de un proyecto único.'
 pubDate: '2024-07-18T01:09:01.514Z'
 heroImage: '/JovenInvestigador.webp'
 categories: ['Convocatorias']
 tags: [Joven Investigador]
 author: '["Ceintecci"]'
+CVLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe3j5Gy1680FH1hxlbmHtrrjogy_qEVk2zqYQl-98HkFRm7vw/formrestricted'
 ---
 
 La Universidad ECCI, la Vicerrectoría de Investigación y el Centro de Investigación e Innovación en Tecnología y Ciencia CEINTECCI, se complacen en invitar a los estudiantes y recién egresados de la institución a participar en la convocatoria de Jóvenes Investigadores e Innovadores.

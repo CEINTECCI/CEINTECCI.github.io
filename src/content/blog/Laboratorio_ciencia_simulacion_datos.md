@@ -1,5 +1,5 @@
 ---
-title: 'Laboratorio de simulación y ciencia de datos'
+title: 'Laboratorio de Simulación y Ciencia de datos'
 description: 'El laboratorio está capacitado para el desarrollo de proyectos de investigación a través de la simulación computacional.'
 pubDate: 'Jul 01 2022'
 heroImage: '/laboratorio-simulacion.webp'

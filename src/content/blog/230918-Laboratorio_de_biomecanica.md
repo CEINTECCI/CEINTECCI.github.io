@@ -1,5 +1,5 @@
 ---
-title: 'Laboratorio de biomecánica y '
+title: 'Laboratorio de Biomecánica y Análisis Cinemático '
 description: 'En el Laboratorio de biomecánica de la Universidad ECCI se realizan análisis de las variables cinemáticas del movimiento. '
 pubDate: '2021-09-19T01:21:47.613Z'
 heroImage: '/Laboratorio-biomecanica.webp'

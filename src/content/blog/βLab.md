@@ -1,6 +1,6 @@
 ---
-title: 'βLab'
-description: 'El laboratorio BLAB es un espacio especializado en diseño dispositivos Electrónicos Flexibles.'
+title: 'Laboratorio de Creación, Diseño y Prototipado (βLab)'
+description: 'El laboratorio BLAB es un espacio especializado en diseño dispositivos Electrónicos Flexibles y manufactura aditiva.'
 pubDate: '2022'
 heroImage: '/Laboratorio-Blab.webp'
 categories: ['Laboratorio']

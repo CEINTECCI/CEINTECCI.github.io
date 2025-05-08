@@ -1,5 +1,5 @@
 ---
-title: 'Laboratorio ciencias biológicas (BSL3)'
+title: 'Laboratorio de Investigación en Ciencias Biológicas (BSL3)'
 description: 'El laboratorio BLS3 se encuentra especializado en el trabajo en epidemiología y salud pública, Actualmente en virus zoonóticos.'
 pubDate: '2021-09-19T01:20:44.275Z'
 heroImage: '/Laboratorio-BLS3.webp'

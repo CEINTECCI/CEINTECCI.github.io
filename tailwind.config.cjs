@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ceintecciBlue: '#134169', // <- AHORA está correctamente ubicado
+        ceintecciBlue: '#134169',
+        ceintecciRed: '#c51630',
+        ceintecciYellow: '#f2ac2c',
       },
       typography: (theme) => ({
         DEFAULT: {

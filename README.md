@@ -1,4 +1,4 @@
-Información y reserva de laboratorios ##CEINTECCI
+## Información y reserva de laboratorios CEINTECCI
 
 En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI.
 

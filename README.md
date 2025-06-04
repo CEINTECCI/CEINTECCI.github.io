@@ -23,7 +23,7 @@ links de los formularios:
 En este apartado usted encontrará de manera facilitada en qué apartados se modifica el código, cómo agregar secciones y modificar estilo de la página web. 
 
 Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en:
-![Dev_D](.Images_Read_Me/Blog_seg-webp)
+![Dev_D](.Images_Read_Me/Blog_seg.webp)
 
 
 

@@ -20,3 +20,11 @@ links de los formularios:
 
 <h1>Manual de usuario para la página web de CEINTECCI</h1>
 
+En este apartado usted encontrará de manera facilitada en qué apartados se modifica el código, cómo agregar secciones y modificar estilo de la página web. 
+
+Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en:
+
+
+
+
+

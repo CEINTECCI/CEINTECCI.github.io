@@ -1,4 +1,4 @@
-<h1>## Información y reserva de laboratorios CEINTECCI</h1>
+<h1>Información y reserva de laboratorios CEINTECCI</h1>
 
 En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI.
 
@@ -18,5 +18,5 @@ links de los formularios:
 - Laboratorio ciencias biológicas (BSL3): https://forms.gle/KUp5B1Du1W8Dvrmv7
 - Link de la página usada para generar los códigos QR: https://es.qr-code-generator.com/
 
-<h1>## Manual de usuario para la página web de CEINTECCI</h1>
+<h1>Manual de usuario para la página web de CEINTECCI</h1>
 

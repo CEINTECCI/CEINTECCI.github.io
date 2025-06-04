@@ -33,7 +33,8 @@ Estructura:
 
 ![Dev_P](./Images_Read_Me/Pagina_Principal.webp)
 
-Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en:
+Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en la categoría laboratorio:
+
 ![Dev_D](./Images_Read_Me/Blog_seg.webp)
 
 

@@ -1,4 +1,4 @@
-## Información y reserva de laboratorios CEINTECCI
+<h1>Información y reserva de laboratorios CEINTECCI</h1>
 
 En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI.
 
@@ -17,3 +17,15 @@ links de los formularios:
 - Laboratorio Hipertermia magnética: https://forms.gle/JnEbQkWcxHfbPAhH7
 - Laboratorio ciencias biológicas (BSL3): https://forms.gle/KUp5B1Du1W8Dvrmv7
 - Link de la página usada para generar los códigos QR: https://es.qr-code-generator.com/
+
+<h1>Manual de usuario para la página web de CEINTECCI</h1>
+
+En este apartado usted encontrará de manera facilitada en qué apartados se modifica el código, cómo agregar secciones y modificar estilo de la página web. 
+
+Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en:
+![Dev_D](./Images_Read_Me/Blog_seg.webp)
+
+
+
+
+

@@ -23,7 +23,15 @@ La página Web tipo blog consiste en recopilar información acerca de los proyec
 Estructura: 
 - Página principal donde encontrará en el **Header** apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
 - Categorias
-  - Laboratorio 
+  - Laboratorios: Aquí encontrarán todos los laboratorios vinculados a CEINTECCI, sus links de Reservas y Tours e información general. 
+  - Convocatorias: En la categoría Convocatorias encontrará las convocatorias actuales del centro de investigación para Jovenes investigadores y profesores que deseen postular su proyecto para recibir ayuda de un joven investigador. 
+  - OpenLabs: Eventos realizados por Jovenes investigadores para acercar a estudiantes al centro de investigación. 
+  - Investigaciones: (Falta información)
+  - Productos: (Falta infromación)
+  - Sprint Days: (Falta información)
+- **Footer** donde encontraremos los logos de la unviersidad ecci y sus certificacioes de investigación
+
+![Dev_P](./Images_Read_Me/Pagina_Principal.webp)
 
 Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en:
 ![Dev_D](./Images_Read_Me/Blog_seg.webp)

@@ -1,6 +1,6 @@
-<h1>Información y reserva de laboratorios CEINTECCI</h1>
+<h1>Manual de usuario para la página web de CEINTECCI</h1>
 
-En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI.
+En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI para facilitar el acceso a nuestros proyectos, investigaciones, productos y convocatorias.
 
 Desarrollada con Astro y Tailwind. 
 
@@ -18,9 +18,12 @@ links de los formularios:
 - Laboratorio ciencias biológicas (BSL3): https://forms.gle/KUp5B1Du1W8Dvrmv7
 - Link de la página usada para generar los códigos QR: https://es.qr-code-generator.com/
 
-<h1>Manual de usuario para la página web de CEINTECCI</h1>
+La página Web tipo blog consiste en recopilar información acerca de los proyectos realizados por el centro de investigación e innovación de la universidad ECCI (CEINTECCI), además, encontrará los links para acceder a las convocatorias internas de nuestro centro. 
 
-En este apartado usted encontrará de manera facilitada en qué apartados se modifica el código, cómo agregar secciones y modificar estilo de la página web. 
+Estructura: 
+- Página principal donde encontrará en el **Header** apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
+- Categorias
+  - Laboratorio 
 
 Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en:
 ![Dev_D](./Images_Read_Me/Blog_seg.webp)

@@ -9,7 +9,7 @@ author: '["Ceintecci"]'
 CVLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe3j5Gy1680FH1hxlbmHtrrjogy_qEVk2zqYQl-98HkFRm7vw/formrestricted'
 ---
 
-La Universidad ECCI, la Vicerrectoría de Investigación y el Centro de Investigación e Innovación en Tecnología y Ciencia CEINTECCI, se complacen en invitar a los estudiantes y recién egresados de la institución a participar en la convocatoria de Jóvenes Investigadores e Innovadores.
+La Universidad ECCI, la Vicerrectoría de Investigación y el Centro de Investigación e Innovación en Tecnología y Ciencia CEINTECCI, se complacen en invitar a los estudiantes y recién egresados de la institución a participar en la convocatoria de Jóvenes Investigadores e Innovadores. 
 
 El objetivo de esta convocatoria es ofrecer la oportunidad a estudiantes o egresados destacados académicamente, a formar parte de los proyectos de investigación previamente seleccionados en la convocatoria plan de trabajo joven investigador.
 

@@ -39,7 +39,7 @@ Lo principal es conocer los apartados para agregar secciones tipo blog en markdo
 
 
 Estos Markdown serán el contenido muestreado en la página web, se pueden encontrar, modificar y agregar desde la carpeta:
-- Src
+- Src//
  - Content
   - Blog
 

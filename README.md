@@ -29,7 +29,7 @@ La página Web tipo blog consiste en recopilar información acerca de los proyec
   - Investigaciones: (Falta información)
   - Productos: (Falta infromación)
   - Sprint Days: (Falta información)
-- **Footer** donde encontraremos los logos de la unviersidad ecci y sus certificacioes de investigación
+- Footer donde encontraremos los logos de la unviersidad ecci y sus certificacioes de investigación
 
 ![Dev_P](./Images_Read_Me/Pagina_Principal.webp)
 

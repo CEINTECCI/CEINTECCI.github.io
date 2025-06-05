@@ -21,7 +21,7 @@ links de los formularios:
 La página Web tipo blog consiste en recopilar información acerca de los proyectos realizados por el centro de investigación e innovación de la universidad ECCI (CEINTECCI), además, encontrará los links para acceder a las convocatorias internas de nuestro centro. 
 
 <h2>Estructura:</h2>  
-- Página principal donde encontrará en el **Header** apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
+- Página principal donde encontrará en el Header apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
 - Categorias
   - Laboratorios: Aquí encontrarán todos los laboratorios vinculados a CEINTECCI, sus links de Reservas y Tours e información general. 
   - Convocatorias: En la categoría Convocatorias encontrará las convocatorias actuales del centro de investigación para Jovenes investigadores y profesores que deseen postular su proyecto para recibir ayuda de un joven investigador. 

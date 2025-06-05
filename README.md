@@ -57,4 +57,6 @@ Estos se pueden modificar en el archivo principal **tailwind.config.cjs** para a
 
 <h2>Modificar estilos de blogs</h2>
 
-En este archivo que se encuentra en la dirección src/pages/categories/[category].astro
+En este archivo que se encuentra en la dirección src/pages/categories/[category].astro donde se puede modificar la estructura visual, botones, etc.
+
+Los botones de los formularios se pueden agregar a otra categoría si se necesita en este apartado, para poder ser leido por los markdowns necesitamos agregarlo en la ruta **src/content/config.ts** de la siguiente forma: ![DEV_MD](./Images_Read_Me/Config_Ts.png)

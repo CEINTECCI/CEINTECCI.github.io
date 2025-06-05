@@ -45,7 +45,10 @@ En esta carpeta se encuentran archivos .md (Markdown); Para seguir la estrucutra
 
 ![DEV_MD](./Images_Read_Me/BlogMD.png)
 
-Estos Markdown tienen que seguir la misma estructura, debemos asegurarnos de contener todos los apartados de Titulo, descripción, etc. En categorías 
+Estos Markdown tienen que seguir la misma estructura, debemos asegurarnos de contener todos los apartados de Titulo, descripción, categorias, etc.
+
+<h2>Imagenes</h2>
+Para agrrgar imágenes en las categorías o blog, tendremos que agregarlas desde la carpeta principal ## Public
 
 
 

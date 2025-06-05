@@ -20,7 +20,7 @@ links de los formularios:
 
 La página Web tipo blog consiste en recopilar información acerca de los proyectos realizados por el centro de investigación e innovación de la universidad ECCI (CEINTECCI), además, encontrará los links para acceder a las convocatorias internas de nuestro centro. 
 
-Estructura: 
+<h2>Estructura:</h2>  
 - Página principal donde encontrará en el **Header** apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
 - Categorias
   - Laboratorios: Aquí encontrarán todos los laboratorios vinculados a CEINTECCI, sus links de Reservas y Tours e información general. 
@@ -33,6 +33,7 @@ Estructura:
 
 ![Dev_P](./Images_Read_Me/Pagina_Principal.webp)
 
+<h2>Configuración de Markdown</h2>
 Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en la categoría laboratorio:
 
 ![Dev_D](./Images_Read_Me/Blog_seg.webp)
@@ -43,6 +44,8 @@ Estos Markdown serán el contenido muestreado en la página web, se pueden encon
 En esta carpeta se encuentran archivos .md (Markdown); Para seguir la estrucutra de la página web debe seguir el siguiente formato: 
 
 ![DEV_MD](./Images_Read_Me/BlogMD.png)
+
+Estos Markdown tienen que seguir la misma estructura, debemos asegurarnos de contener todos los apartados de Titulo, descripción, etc. En categorías 
 
 
 

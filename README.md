@@ -55,3 +55,6 @@ Para agregar imágenes en las categorías o blog, tendremos que agregarlas desde
 Estos se pueden modificar en el archivo principal **tailwind.config.cjs** para agregar nuevos estilos, cambiarlos, modificarlos, etc.
 
 
+<h2>Modificar estilos de blogs</h2>
+
+En este archivo que se encuentra en la dirección src/pages/categories/[category].astro

@@ -38,6 +38,10 @@ Lo principal es conocer los apartados para agregar secciones tipo blog en markdo
 ![Dev_D](./Images_Read_Me/Blog_seg.webp)
 
 
+Estos Markdown serán el contenido muestreado en la página web, se pueden encontrar, modificar y agregar desde la carpeta:
+- Src//
+ - Content
+  - Blog
 
 
 

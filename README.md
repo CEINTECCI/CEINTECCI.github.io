@@ -48,4 +48,10 @@ En esta carpeta se encuentran archivos .md (Markdown); Para seguir la estrucutra
 Estos Markdown tienen que seguir la misma estructura, debemos asegurarnos de contener todos los apartados de Titulo, descripción, categorias, etc.
 
 <h2>Imagenes</h2>
-Para agregar imágenes en las categorías o blog, tendremos que agregarlas desde la carpeta principal <h4>Public</h4>
+Para agregar imágenes en las categorías o blog, tendremos que agregarlas desde la carpeta principal <h4>Public</h4> Solo tendrás que subir una imagen a la carpeta y para usarla solo hará falta el link directo, como por ejemplo: '/JovenInvestigador.webp'
+
+<h2>Modificar estilos de la página web</h2>
+
+Estos se pueden modificar en el archivo principal **tailwind.config.cjs** para agregar nuevos estilos, cambiarlos, modificarlos, etc.
+
+

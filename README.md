@@ -7,15 +7,15 @@ Desarrollada con Astro y Tailwind.
 Para más información puede consultar en la documentación: 
 ## Astro
 ```scheme
-[(https://docs.astro.build/en/getting-started/)]
+https://docs.astro.build/en/getting-started/
 ```
 ## Tailwind
 ```scheme
-[https://v2.tailwindcss.com/docs]
+https://v2.tailwindcss.com/docs
 ```
 ## Astro Theme:
 ```scheme
-[https://github.com/gndx/ev0-astro-theme]
+https://github.com/gndx/ev0-astro-theme
 ```
 
 Link de la página: https://ceintecci.github.io/

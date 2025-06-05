@@ -33,6 +33,50 @@ La página Web tipo blog consiste en recopilar información acerca de los proyec
 
 ![Dev_P](./Images_Read_Me/Pagina_Principal.webp)
 
+## Estructura del proyecto:
+
+```
+/
+├── public/
+│   └── favicons/
+│   └── fonts/
+│   └── blog-placeholder.jpg
+│   └── favicon.png
+│   └── humans.txt
+├── scripts/
+│   └── youtube.cjs
+├── src/
+│   ├── components/
+│   ├── config/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+│   └── styles/
+│   └── env.d.ts
+└── package.json
+└── astro.config.mjs
+└── tailwind.config.js
+└── tsconfig.json
+└── .gitignore
+```
+
+## ¿Cómo inicializar el proyecto?
+
+Clona este repositorio con el siguiente comando en bash o instala el .zip
+
+```scheme
+[git clone https://github.com/CEINTECCI/CEINTECCI.github.io.git]
+```
+
+| Comando           | Acción                                       |
+| :---------------- | :------------------------------------------- |
+| `npm install`     | Instala las dependencias                     |
+| `npm run dev`     | Inicia el servidor, ejem: 'localhost:4321'   |
+| `npm run build`   | Construye tu página web en  `./dist/`        |
+| `npm run preview` | Revisa tu proyecto en local host             |
+| `npm run newpost` | Genera un nuevo componente markdown(blog)    |
+
+
 <h2>Configuración de Markdown</h2>
 Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en la categoría laboratorio:
 
@@ -60,3 +104,4 @@ Estos se pueden modificar en el archivo principal **tailwind.config.cjs** para a
 En este archivo que se encuentra en la dirección src/pages/categories/[category].astro donde se puede modificar la estructura visual, botones, etc.
 
 Los botones de los formularios se pueden agregar a otra categoría si se necesita en este apartado, para poder ser leido por los markdowns necesitamos agregarlo en la ruta **src/content/config.ts** de la siguiente forma: ![DEV_MD](./Images_Read_Me/Config_Ts.png)
+

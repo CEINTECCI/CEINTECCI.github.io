@@ -49,7 +49,7 @@ Estos Markdown tienen que seguir la misma estructura, debemos asegurarnos de con
 
 <h2>Imagenes</h2>
 Para agregar imágenes en las categorías o blog, tendremos que agregarlas desde la carpeta principal 
-## Public
+##Public
 
 
 

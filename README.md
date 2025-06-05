@@ -4,16 +4,16 @@ En esta página usted encontrará información, links relevantes y formularios d
 
 Desarrollada con Astro y Tailwind.
 
-Para más información puede consultar en la documentación de astro: 
-
+Para más información puede consultar en la documentación: 
+## Astro
 ```scheme
 [(https://docs.astro.build/en/getting-started/)]
 ```
-Tailwind
+## Tailwind
 ```scheme
 [https://v2.tailwindcss.com/docs]
 ```
-Astro Theme:
+## Astro Theme:
 ```scheme
 [https://github.com/gndx/ev0-astro-theme]
 ```

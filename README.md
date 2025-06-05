@@ -39,9 +39,11 @@ Lo principal es conocer los apartados para agregar secciones tipo blog en markdo
 
 
 Estos Markdown serán el contenido muestreado en la página web, se pueden encontrar, modificar y agregar desde la carpeta:
-- Src//
- - Content
-  - Blog
+- Src -> Content - > Blog
+En esta carpeta se encuentran archivos .md (Markdown); Para seguir la estrucutra de la página web debe seguir el siguiente formato: 
+
+![DEV_MD](./Images_Read_Me/BlogMD.png)
+
 
 
 

@@ -2,7 +2,21 @@
 
 En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI para facilitar el acceso a nuestros proyectos, investigaciones, productos y convocatorias.
 
-Desarrollada con Astro y Tailwind. 
+Desarrollada con Astro y Tailwind.
+
+Para más información puede consultar en la documentación de astro: 
+
+```scheme
+[(https://docs.astro.build/en/getting-started/)]
+```
+Tailwind
+```scheme
+[https://v2.tailwindcss.com/docs]
+```
+Astro Theme:
+```scheme
+[https://github.com/gndx/ev0-astro-theme]
+```
 
 Link de la página: https://ceintecci.github.io/
 

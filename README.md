@@ -2,7 +2,21 @@
 
 En esta página usted encontrará información, links relevantes y formularios del centro de investigación CEINTECCI de la universidad ECCI para facilitar el acceso a nuestros proyectos, investigaciones, productos y convocatorias.
 
-Desarrollada con Astro y Tailwind. 
+Desarrollada con Astro y Tailwind.
+
+Para más información puede consultar en la documentación: 
+## Astro
+```scheme
+https://docs.astro.build/en/getting-started/
+```
+## Tailwind
+```scheme
+https://v2.tailwindcss.com/docs
+```
+## Astro Theme:
+```scheme
+https://github.com/gndx/ev0-astro-theme
+```
 
 Link de la página: https://ceintecci.github.io/
 
@@ -21,7 +35,8 @@ links de los formularios:
 La página Web tipo blog consiste en recopilar información acerca de los proyectos realizados por el centro de investigación e innovación de la universidad ECCI (CEINTECCI), además, encontrará los links para acceder a las convocatorias internas de nuestro centro. 
 
 <h2>Estructura:</h2>  
-- Página principal donde encontrará en el **Header** apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
+
+- Página principal donde encontrará en el Header apartados como infromación del centro, logos, sección de About Us, categorías y redes sociales del centro.
 - Categorias
   - Laboratorios: Aquí encontrarán todos los laboratorios vinculados a CEINTECCI, sus links de Reservas y Tours e información general. 
   - Convocatorias: En la categoría Convocatorias encontrará las convocatorias actuales del centro de investigación para Jovenes investigadores y profesores que deseen postular su proyecto para recibir ayuda de un joven investigador. 
@@ -29,9 +44,53 @@ La página Web tipo blog consiste en recopilar información acerca de los proyec
   - Investigaciones: (Falta información)
   - Productos: (Falta infromación)
   - Sprint Days: (Falta información)
-- **Footer** donde encontraremos los logos de la unviersidad ecci y sus certificacioes de investigación
+- Footer donde encontraremos los logos de la unviersidad ecci y sus certificacioes de investigación
 
 ![Dev_P](./Images_Read_Me/Pagina_Principal.webp)
+
+## Estructura del proyecto:
+
+```
+/
+├── public/
+│   └── favicons/
+│   └── fonts/
+│   └── blog-placeholder.jpg
+│   └── favicon.png
+│   └── humans.txt
+├── scripts/
+│   └── youtube.cjs
+├── src/
+│   ├── components/
+│   ├── config/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+│   └── styles/
+│   └── env.d.ts
+└── package.json
+└── astro.config.mjs
+└── tailwind.config.js
+└── tsconfig.json
+└── .gitignore
+```
+
+## ¿Cómo inicializar el proyecto?
+
+Clona este repositorio con el siguiente comando en bash o instala el .zip
+
+```scheme
+[git clone https://github.com/CEINTECCI/CEINTECCI.github.io.git]
+```
+
+| Comando           | Acción                                       |
+| :---------------- | :------------------------------------------- |
+| `npm install`     | Instala las dependencias                     |
+| `npm run dev`     | Inicia el servidor, ejem: 'localhost:4321'   |
+| `npm run build`   | Construye tu página web en  `./dist/`        |
+| `npm run preview` | Revisa tu proyecto en local host             |
+| `npm run newpost` | Genera un nuevo componente markdown(blog)    |
+
 
 <h2>Configuración de Markdown</h2>
 Lo principal es conocer los apartados para agregar secciones tipo blog en markdown de infromación como se puede ver en la categoría laboratorio:
@@ -57,4 +116,7 @@ Estos se pueden modificar en el archivo principal **tailwind.config.cjs** para a
 
 <h2>Modificar estilos de blogs</h2>
 
-En este archivo que se encuentra en la dirección src/pages/categories/[category].astro
+En este archivo que se encuentra en la dirección src/pages/categories/[category].astro donde se puede modificar la estructura visual, botones, etc.
+
+Los botones de los formularios se pueden agregar a otra categoría si se necesita en este apartado, para poder ser leido por los markdowns necesitamos agregarlo en la ruta **src/content/config.ts** de la siguiente forma: ![DEV_MD](./Images_Read_Me/Config_Ts.png)
+

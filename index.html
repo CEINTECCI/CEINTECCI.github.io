@@ -618,13 +618,14 @@
         </div>
       </div>
     </footer>
-    <div id="bubble_chat"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script defer="defer" src="https://chatbot-ecci.s3.us-east-1.amazonaws.com/bubble-chat/index.js"></script>
-    <link href="https://chatbot-ecci.s3.us-east-1.amazonaws.com/bubble-chat/index.css" rel="stylesheet" />
+
+    <!-- Bubble chat -->
+    <div id=chat-wrapper style=position:fixed;bottom:0;right:0;width:240px;height:130px;pointer-events:none;z-index:9999><iframe allowtransparency=true src=https://bubble-chat.ecci.lexuil.com style="width:100%;height:100%;border:none;background:0 0;pointer-events:auto"></iframe></div>
+    <script>window.addEventListener('message',(event)=>{if(event.data.type==='RESIZE_IFRAME'){const iframe=document.getElementById('chat-wrapper');if(iframe){if(event.data.isOpen){if(window.matchMedia("(max-width: 640px)").matches){iframe.style.width='100dvw';iframe.style.height='75dvh'}else{iframe.style.width='520px';iframe.style.height='795px'}}else{iframe.style.width='240px';iframe.style.height='130px'}}}})</script>
   </body>
 </html>
